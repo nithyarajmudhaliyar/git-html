@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <!-- First Section -->
+    <section>
+      <h2>Your Cart</h2>
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+        alt="3D cube toy"
+      />
+    </section>
+
+    <!-- Second Section -->
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <!-- Cardholder Name -->
+        <label for="card-name"
+          >Cardholder Name
+          <span aria-hidden="true">*</span>
+        </label>
+        <input
+          type="text"
+          id="card-name"
+          name="card-name"
+          required
+        />
+
+        <!-- Card Number -->
+        <label for="card-number"
+          >Card Number
+          <span aria-hidden="true">*</span>
+        </label>
+        <input
+          type="text"
+          id="card-number"
+          name="card-number"
+          required
+          aria-describedby="card-number-help"
+        />
+        <p id="card-number-help">
+          Please enter a 16-digit card number without spaces or dashes.
+        </p>
+
+        <!-- Submit Button -->
+        <button type="submit">Complete Payment</button>
+      </form>
+    </section>
+  </body>
+</html>
