@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Collection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      color: #333333;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    thead {
+      background: #4a90e2;
+      color: white;
+    }
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    tbody tr:hover {
+      background: #f1f5fb;
+    }
+    tfoot {
+      background: #e9f1fb;
+      font-weight: bold;
+    }
+    tfoot td {
+      text-align: right;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Hobbit</td>
+        <td>J.R.R. Tolkien</td>
+        <td>Fantasy</td>
+        <td>1937</td>
+      </tr>
+      <tr>
+        <td>1984</td>
+        <td>George Orwell</td>
+        <td>Dystopian</td>
+        <td>1949</td>
+      </tr>
+      <tr>
+        <td>To Kill a Mockingbird</td>
+        <td>Harper Lee</td>
+        <td>Fiction</td>
+        <td>1960</td>
+      </tr>
+      <tr>
+        <td>Pride and Prejudice</td>
+        <td>Jane Austen</td>
+        <td>Romance</td>
+        <td>1813</td>
+      </tr>
+      <tr>
+        <td>The Great Gatsby</td>
+        <td>F. Scott Fitzgerald</td>
+        <td>Tragedy</td>
+        <td>1925</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
